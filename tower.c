@@ -1,12 +1,15 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+
 typedef struct{
 	int pos[3];
 }posto;
+
 typedef struct{
 		char er[6];
 	}com;
+
 int inserisci(int a,int b, int c);
 void tabella(posto *p);
 
